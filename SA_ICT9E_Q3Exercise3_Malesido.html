@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Q3 | Exercise 3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <style type="text/css">
+    img{
+      width: 25%;
+      height: 25%;
+    }
+    .bg-color1{
+      background-color: #EA87B3;
+    }
+    .bg-color2{
+      background-color: #B8A5F1;
+    }
+    .bg-color3{
+      background-color: #A5E3F1;
+    }
+    .bg-color4{
+      background-color: #A5F1B8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Bootstrap Tables</h2>
+    <p>Try the different bootstrap table style.</p>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col" class="bg-color1">Rank</th>
+            <th scope="col" class="bg-color2">Athlete</th>
+            <th scope="col" class="bg-color3">Source of Wealth</th>
+            <th scope="col" class="bg-color4">Net Worth</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td><img src="https://image-cdn.essentiallysports.com/wp-content/uploads/20201231132631/GettyImages-1266159745.jpg" class="img-thumbnail">&nbsp;Serena Williams</td>
+            <td>American professional tennis player</td>
+            <td>$ 250 million</td>
+          </tr>
+
+          <tr>
+            <th scope="row">2</th>
+            <td><img src="https://pyxis.nymag.com/v1/imgs/6ac/2a6/b48d3a180f333298f5bee60ff80f4ba886-12-tony-hawk.rsquare.w700.jpg" class="img-thumbnail">&nbsp;Tony Hawk AKA "Birdman"</td>
+            <td>American skateboarder, entrpreneur, and founder of The Skatepark Project</td>
+            <td>$ 140 million</td>
+          </tr>
+
+          <tr>
+            <th scope="row">3</th>
+            <td><img src="https://static01.nyt.com/images/2023/02/02/sports/00nba-lebron-streeter/00nba-lebron-streeter-videoSixteenByNine3000.jpg" class="img-thumbnail">&nbsp;Kareem Abdul-Jabbar</td>
+            <td>American professional basketball player</td>
+            <td>$ 25 million</td>
+          </tr>
+
+          <tr>
+            <th scope="row">4</th>
+            <td><img src="https://detroithockeynow.com/wp-content/uploads/sites/11/2021/07/maxresdefault-1-e1640387895969.jpg" class="img-thumbnail">&nbsp;Gordie Howe</td>
+            <td>Canadian professional ice hockey player</td>
+            <td>$ 10 million</td>
+          </tr>
+
+           <tr>
+            <th scope="row">5</th>
+            <td><img src="https://d29zunrt9sid73.cloudfront.net/speaker_media/asset/24414/large_70_24414.jpg" class="img-thumbnail">&nbsp;Jackie Joyner-Kersee</td>
+            <td>Amercican track and field athlete</td>
+            <td>$ 5 million</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+  <! -- Tong, K. (2022, Feb. 1). Ronaldo, Tyson, Bolt, Pele, Messi, Mayweather: The top 50 greatest athletes of all time. Retrieved from givemesport.com: https://www.givemesport.com/1831453-ronaldo-tyson-bolt-pele-messi-mayweather-the-top-50-greatest-athletes-of-all-time -- >
+
+<div class="container">
+  <h2>Become a member of our magazine today!</h2>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="row form-group">
+      <label align="center" class="control-label col-sm-2">Name:</label>
+      <div class="col-sm-10">
+        <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+      </div> 
+    </div>
+    <div class="row form-group">
+      <label align="center" class="control-label col-sm-2">Age:</label>
+      <div class="col-sm-10">
+        <input type="age" class="form-control" id="age" placeholder="Enter age (must be 14 years or older)" name="age">
+      </div> 
+    </div>
+    <div class="row form-group">
+      <label align="center" class="control-label col-sm-2">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div> 
+    </div>
+    <div class="row form-group">
+      <label align="center" class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      </div>
+    </div>
+    <div align="center" class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="radio">
+          <label><input type="radio" name="remember">Remember me</label>
+        </div>
+      </div>
+    </div>
+    <div align="center" class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-success btn-block">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>
